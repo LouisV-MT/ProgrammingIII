@@ -1,4 +1,4 @@
-package Excercice;
+package Excercice.Day01DataFromFile;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,7 +12,7 @@ public class Day01DataFromFile {
 
     public static void main(String[] args) {
         try {
-            File input = new File("src/Excercice/input.txt");
+            File input = new File("src/Excercice/Day01DataFromFile/input.txt");
             Scanner sc = new Scanner(input);
             System.out.println("Data loaded");
             while (sc.hasNextLine()) {
